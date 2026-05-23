@@ -1,27 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-	<meta name="generator" content="Hugo 0.161.1">
-    <meta charset="UTF-8">
-    <title>Мой сайт Hugo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Вектор города</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background: #ffffff;
+    }
+
+    /* ===== TOP MENU ===== */
+    .header {
+        background: linear-gradient(90deg, #00ffb3, #00e0ff);
+        padding: 15px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .header a {
+        text-decoration: none;
+        color: black;
+        margin: 0 15px;
+        font-size: 18px;
+    }
+
+    /* ===== LOGO ===== */
+    .logo-block {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .logo {
+        font-size: 28px;
+        font-weight: bold;
+        color: #0a7a4b;
+        margin-top: 10px;
+    }
+
+    .logo-icon {
+        width: 60px;
+        height: 60px;
+        margin: auto;
+        border: 4px solid #0a7a4b;
+        border-radius: 50%;
+    }
+
+    /* ===== CONTENT ===== */
+    .content {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .box {
+        background: #d9d9d9;
+        width: 70%;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .box h2 {
+        margin-bottom: 15px;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+        margin-top: 60px;
+        background: #8c8c8c;
+        color: black;
+        text-align: left;
+        padding: 15px 30px;
+    }
+</style>
+
 </head>
+
 <body>
-    <h1>Привет!</h1>
-    <p>Сайт работает 🎉</p>
 
-    <h2>Посты:</h2>
+    <!-- MENU -->
+    <div class="header">
+        <div>
+            <a href="#">Главная</a>
+        </div>
 
-    
         <div>
-            <h3>My Second Post</h3>
-            <p></p>
+            <a href="#">О проекте</a>
+            <a href="#">Журнал</a>
+            <a href="#">Участники</a>
+            <a href="#">Ресурсы</a>
         </div>
-    
-        <div>
-            <h3>My First Post</h3>
-            <p></p>
+    </div>
+
+    <!-- LOGO -->
+    <div class="logo-block">
+        <div class="logo-icon"></div>
+        <div class="logo">ВЕКТОР ГОРОДА</div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="content">
+        <div class="box">
+            <h2>Аннотация проекта</h2>
+            <p>
+                Проект "Вектора города" посвящён разработке сайта и мобильного приложения
+                для изучения достопримечательностей Москвы. Идея проекта заключается в том,
+                чтобы пользователи могли в интересной, а так же игровой форме изучать
+                достопримечательности
+            </p>
         </div>
-    
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        © Проектная деятельность 2026
+    </div>
 
 </body>
 </html>
