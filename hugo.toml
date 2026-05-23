@@ -1,0 +1,5 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'Мой проект'
+theme = "ananke"
+draft = flase

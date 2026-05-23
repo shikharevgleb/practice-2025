@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Мой сайт Hugo</title>
+</head>
+<body>
+    <h1>Привет!</h1>
+    <p>Сайт работает 🎉</p>
+
+    <h2>Посты:</h2>
+
+    {{ range .Site.RegularPages }}
+        <div>
+            <h3>{{ .Title }}</h3>
+            <p>{{ .Content }}</p>
+        </div>
+    {{ end }}
+
+</body>
+</html>
